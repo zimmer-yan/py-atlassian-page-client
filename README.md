@@ -1,5 +1,12 @@
 # Atlassian Page Client
 
+[![PyPI version](https://badge.fury.io/py/atlassian-page-client.svg)](https://badge.fury.io/py/atlassian-page-client)
+[![Tests](https://github.com/zimmer-yan/py-atlassian-page-client/workflows/Tests/badge.svg)](https://github.com/zimmer-yan/py-atlassian-page-client/actions)
+[![Coverage](https://codecov.io/gh/zimmer-yan/py-atlassian-page-client/branch/main/graph/badge.svg)](https://codecov.io/gh/zimmer-yan/py-atlassian-page-client)
+[![Python versions](https://img.shields.io/pypi/pyversions/atlassian-page-client.svg)](https://pypi.org/project/atlassian-page-client/)
+[![Downloads](https://pepy.tech/badge/atlassian-page-client)](https://pepy.tech/project/atlassian-page-client)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A Python client library for interacting with Atlassian Confluence pages through the REST API.
 
 ## Features
@@ -100,7 +107,7 @@ You'll need:
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.8+
 - requests >= 2.25.0
 - beautifulsoup4 >= 4.9.0
 
