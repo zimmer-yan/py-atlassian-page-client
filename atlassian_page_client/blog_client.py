@@ -1,6 +1,6 @@
 # Call JIRA API with HTTPBasicAuth
-import datetime
 import json
+from datetime import datetime
 
 import requests
 from requests.auth import HTTPBasicAuth
