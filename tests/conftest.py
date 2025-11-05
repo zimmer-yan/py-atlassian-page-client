@@ -1,8 +1,9 @@
 """Pytest fixtures for atlassian-page-client tests."""
 
-import pytest
 import json
 from unittest.mock import Mock
+
+import pytest
 
 
 @pytest.fixture
@@ -16,18 +17,16 @@ def sample_page_data():
         "body": {
             "storage": {
                 "value": "<p>Test content</p><table ac:local-id='test-table'><tr><td>Cell 1</td></tr></table>",
-                "representation": "storage"
+                "representation": "storage",
             }
         },
         "version": {
             "number": 1,
             "_links": {
                 "self": "https://example.atlassian.net/wiki/rest/api/content/12345/version/1"
-            }
+            },
         },
-        "_links": {
-            "self": "https://example.atlassian.net/wiki/rest/api/content/12345"
-        }
+        "_links": {"self": "https://example.atlassian.net/wiki/rest/api/content/12345"},
     }
 
 
@@ -63,5 +62,5 @@ def client_config():
     return {
         "email": "test@example.com",
         "token": "test_token_123",
-        "base_url": "https://example.atlassian.net"
+        "base_url": "https://example.atlassian.net",
     }
