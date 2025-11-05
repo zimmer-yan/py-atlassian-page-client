@@ -24,12 +24,12 @@ class AtlassianAttachmentClient:
         with open(file_path, "rb") as f:
             files = {"file": (file_path, f)}
 
-        response = requests.post(
-            self.base_url + apiUrl,
-            headers=self.HEADERS,
-            auth=self.basicAuth,
-            files=files,
-        )
+            response = requests.post(
+                self.base_url + apiUrl,
+                headers=self.HEADERS,
+                auth=self.basicAuth,
+                files=files,
+            )
 
         self.check_response(response)
 

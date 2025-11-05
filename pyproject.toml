@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "atlassian-page-client"
-version = "0.2.1"
+version = "0.2.2"
 authors = [
     {name = "Yannick Zimmermann", email = "yannick.zimmermann@proton.me"},
 ]
